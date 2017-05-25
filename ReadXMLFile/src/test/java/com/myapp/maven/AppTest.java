@@ -14,7 +14,7 @@ public class AppTest  {
 	public static void main ( String[] args ){
 		List<Structure> listExample= new ArrayList<Structure>();
 		Structure structure = new Structure();
-		String urlXml="D:/Java Exercise/5-17-2017/sandboxsuite5_output.xml";
+		String urlXml="sandboxsuite5_output.xml";
 		ReadFile rf= new ReadFile();
 	    	rf.addList(urlXml,structure,listExample);
 	    	rf.viewList(listExample);			 
